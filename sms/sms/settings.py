@@ -19,11 +19,11 @@ SECRET_KEY ='django-insecure-ux$&02l*ri@g!fp$@@8g7kxd4#ix6$_=xo!r+bzmz3@f2&=i@6'
 DEBUG = False # Set to False in production
 
 ALLOWED_HOSTS = [
-    'www.main.wtsmessage.xyz',
-    '.wtsmessage.xyz',  # Allow subdomains
+    'www.main.waverified.online',
+    '.waverified.online',  # Allow subdomains
     'localhost',
     '127.0.0.1',
-    '217.145.69.172',
+    '46.202.130.143',
     '[::1]'
 ]
 # CORS Configuration
@@ -98,10 +98,10 @@ WSGI_APPLICATION = 'sms.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'admin',
+        'NAME': 'client_admin',
         'USER': 'postgres',
         'PASSWORD': 'Solution@97',
-        'HOST': '217.145.69.172',
+        'HOST': '46.202.130.143',
         'PORT': '5432',
     }
 }
